@@ -7,6 +7,7 @@ class App {
       // Considere a String str = "modular"; // length = 7
       //                          +01234567890
   
+
       System.out.println(Texto.substr("modular", 1, 6)); // odula
       System.out.println(
         Texto.substr("modular", 2, 5)); // dul
@@ -33,6 +34,6 @@ class App {
         Texto.substr("programacao modular", 0, 4, 12)); // progmodular
       System.out.println(
         //            0123456789012345678
-        Texto.substr("programacao modular", 0, 3, 6, 9, 12, 15));
+        Texto.substr("programacao modular", 0, 3, 6, 9, 12, 15)); 
     }
   }
